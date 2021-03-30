@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--_MODULUS=jeWIwzKWW87M7sktaSkD3kTRJvsEdzpp7Y8L+wq7V6l9pUnoBC623AMPbhPoUEGpt7xZU1JrM1DfwXUCOPUxCPkmyKYZP+Zhp9AEWxTOG7TJ0WLNjc79VFw+gig0ggyQ7OLC1p+BLgKd0Vj8bUWJB9IXXWyohmec6ALGBfTkCB4=-->
+<!--_SIG=mLMuFJWqyZ72Ui3+Gjb2LKmn3QsRVKJjBjRklRAwDRdvvjgntqbnGxhuE7OCN5P6eVwSNcbPpk0XPXAOUrD/JYv0VCI0rrpGlyA+1dBlpzJpCGkM0QvIvECC/9iZXlQoTMScTjHqGE4FR5GQgAb/A8OZm/apkvgHnLhRbtUZuo8=-->
+<Setup Id="Visio.en-us" Type="AddOn" Keyword="VisioMUI" Culture="en-us">
+	<Option Id="AlwaysInstalled" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="Gimme_OnDemandData" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="yes" Hidden="yes"/>
+	<Option Id="ProductFiles" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="no">
+		<Option Id="VISIOFiles" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+			<Option Id="VisMAddons" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+				<Option Id="VisMAnnotations" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisMCAD_Drawing_Display" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisMCallouts_and_Connectors" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisMCustom_Patterns" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisMSymbols" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+			</Option>
+			<Option Id="VisMSolutions" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+				<Option Id="VisMAdvancedEngineering" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisMBasic" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisMBusiness" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisMMapsFloorPlans" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisMNetwork" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisMProcess" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisMSchedules" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+			</Option>
+			<Option Id="VisUSAddons" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+				<Option Id="VisUSAnnotations" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisUSCAD_Drawing_Display" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisUSCallouts_and_Connectors" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisUSCustom_Patterns" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisUSSymbols" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+			</Option>
+			<Option Id="VisUSSolutions" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no">
+				<Option Id="VisUSAdvancedEngineering" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisUSBasic" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisUSBusiness" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisUSMapsFloorPlans" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisUSNetwork" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisUSProcess" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+				<Option Id="VisUSSchedules" DefaultState="Local" DisallowAbsent="no" DisallowAdvertise="no"/>
+			</Option>
+			<Option Id="VisioHelp" DefaultState="Local" DisallowAbsent="yes" DisallowAdvertise="no" Hidden="yes"/>
+			<Option Id="VisBusiness" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VisMBusiness"/>
+				<OptionDependency Lead="VisUSBusiness"/>
+			</Option>
+			<Option Id="VisCAD_Drawing_Display" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VisMCAD_Drawing_Display"/>
+				<OptionDependency Lead="VisUSCAD_Drawing_Display"/>
+			</Option>
+			<Option Id="VisEngineering" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VisMAdvancedEngineering"/>
+				<OptionDependency Lead="VisUSAdvancedEngineering"/>
+			</Option>
+			<Option Id="VisFlowcharts" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VisMProcess"/>
+				<OptionDependency Lead="VisUSProcess"/>
+			</Option>
+			<Option Id="VisMapsFloorPlans" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VisMMapsFloorPlans"/>
+				<OptionDependency Lead="VisUSMapsFloorPlans"/>
+			</Option>
+			<Option Id="VisNetwork" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VisMNetwork"/>
+				<OptionDependency Lead="VisUSNetwork"/>
+			</Option>
+			<Option Id="VisSchedules" DefaultState="Absent" DisallowAbsent="no" DisallowAdvertise="no" Hidden="yes">
+				<OptionDependency Lead="VisMSchedules"/>
+				<OptionDependency Lead="VisUSSchedules"/>
+			</Option>
+		</Option>
+	</Option>
+	<PackageRef Path="VisioMUI.xml"/>
+	<LocalCache DownloadCode="{90150000-0054-0409-0000-0000000FF1CE}" SkuComponentDirectory="Visio.en-us">
+		<File Id="VisioMUI.xml" MD5="0B2E37707B23C694C18B39D4DEDF197A" Size="0" RelativeCachePath="VisioMUI.xml" RelativeSourcePath="VisioMUI.xml"/>
+		<File Id="VisioMUI.msi" MD5="22044DCE191642535506D1C7F71E31D8" Size="2170880" RelativeCachePath="VisioMUI.msi" RelativeSourcePath="VisioMUI.msi"/>
+		<File Id="VisioLR.cab" MD5="3B96EDE9FAF7783636F4D7AC05AC842A" Size="50823882" RelativeCachePath="VisioLR.cab" RelativeSourcePath="VisioLR.cab"/>
+		<File Id="Setup.xml" MD5="" Size="" RelativeCachePath="Setup.xml" RelativeSourcePath="Setup.xml"/>
+	</LocalCache>
+</Setup>
